@@ -4,7 +4,7 @@ import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X, Phone, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { LanguageSwitcher } from './language-switcher';
@@ -24,28 +24,32 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4">
+    <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
+      <div className="container mx-auto flex h-20 items-center justify-between px-4">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
           <div className="flex items-center">
-            <span className="text-2xl font-bold text-amber-500">☀️</span>
-            <span className="ml-2 text-xl font-semibold text-gray-900">
-              Sunshine Mortgages
+            <div className="w-10 h-10 bg-[#f16421] rounded-full flex items-center justify-center">
+              <span className="text-xl text-white">☀</span>
+            </div>
+            <span className="ml-3 text-xl font-bold text-gray-900">
+              Sunshine <span className="text-[#f16421]">Mortgages</span>
             </span>
           </div>
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center space-x-8">
+        <nav className="hidden lg:flex items-center space-x-1">
           {navItems.map((item) => {
             const isActive = pathname === item.href || pathname.endsWith(item.href);
             return (
               <Link
                 key={item.key}
                 href={item.href}
-                className={`text-sm font-medium transition-colors hover:text-amber-600 ${
-                  isActive ? 'text-amber-600' : 'text-gray-600'
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                  isActive
+                    ? 'text-[#f16421] bg-[#f16421]/10'
+                    : 'text-gray-600 hover:text-[#f16421] hover:bg-gray-50'
                 }`}
               >
                 {t(item.key)}
@@ -59,14 +63,14 @@ export function Header() {
           <LanguageSwitcher />
           <a
             href="tel:099544963"
-            className="flex items-center text-sm text-gray-600 hover:text-amber-600"
+            className="flex items-center text-sm font-medium text-gray-600 hover:text-[#f16421] transition-colors"
           >
             <Phone className="mr-2 h-4 w-4" />
             09 954 4963
           </a>
-          <Button asChild className="bg-amber-500 hover:bg-amber-600">
-            <Link href="/contact">{t('getStarted')}</Link>
-          </Button>
+          <Link href="/contact" className="btn-primary text-sm">
+            {t('getStarted')}
+          </Link>
         </div>
 
         {/* Mobile Menu */}
@@ -74,37 +78,39 @@ export function Header() {
           <LanguageSwitcher />
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon">
-                <Menu className="h-6 w-6" />
+              <Button variant="ghost" size="icon" className="hover:bg-[#f16421]/10">
+                <Menu className="h-6 w-6 text-gray-700" />
                 <span className="sr-only">Toggle menu</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
-              <nav className="flex flex-col space-y-4 mt-8">
+              <nav className="flex flex-col space-y-2 mt-8">
                 {navItems.map((item) => (
                   <Link
                     key={item.key}
                     href={item.href}
                     onClick={() => setIsOpen(false)}
-                    className="text-lg font-medium text-gray-900 hover:text-amber-600"
+                    className="text-lg font-medium text-gray-900 hover:text-[#f16421] px-4 py-3 rounded-xl hover:bg-gray-50 transition-colors"
                   >
                     {t(item.key)}
                   </Link>
                 ))}
-                <div className="pt-4 border-t">
+                <div className="pt-6 border-t mt-4">
                   <a
                     href="tel:099544963"
-                    className="flex items-center text-gray-600 hover:text-amber-600"
+                    className="flex items-center text-gray-600 hover:text-[#f16421] px-4 py-3"
                   >
-                    <Phone className="mr-2 h-4 w-4" />
+                    <Phone className="mr-3 h-5 w-5" />
                     09 954 4963
                   </a>
                 </div>
-                <Button asChild className="bg-amber-500 hover:bg-amber-600 w-full">
-                  <Link href="/contact" onClick={() => setIsOpen(false)}>
-                    {t('getStarted')}
-                  </Link>
-                </Button>
+                <Link
+                  href="/contact"
+                  onClick={() => setIsOpen(false)}
+                  className="btn-primary text-center mx-4 mt-4"
+                >
+                  {t('getStarted')}
+                </Link>
               </nav>
             </SheetContent>
           </Sheet>
