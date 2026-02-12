@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "阳光贷款 | 奥克兰专业贷款中介",
+    "description": "奥克兰专业贷款顾问。为首次购房者、再融资和投资房产提供个性化房贷解决方案。"
+  },
+  "nav": {
+    "home": "首页",
+    "services": "服务项目",
+    "calculator": "贷款计算器",
+    "about": "关于我们",
+    "blog": "资讯中心",
+    "contact": "联系我们",
+    "getStarted": "立即咨询"
+  },
+  "hero": {
+    "title": "实现置业梦想，从这里开始",
+    "subtitle": "奥克兰值得信赖的贷款顾问。我们简化贷款流程，让您专注于寻找理想家园。",
+    "cta": "免费咨询",
+    "secondaryCta": "计算贷款"
+  },
+  "services": {
+    "title": "我们的服务",
+    "subtitle": "为您人生每个阶段提供量身定制的贷款方案",
+    "firstHome": {
+      "title": "首次购房",
+      "description": "专业指导首次购房流程。我们帮助您了解政府补贴计划，找到最优惠的利率。"
+    },
+    "refinancing": {
+      "title": "再融资",
+      "description": "重组现有贷款以获得更优惠利率或提取房屋净值。我们比较所有主要银行的方案。"
+    },
+    "construction": {
+      "title": "建房贷款",
+      "description": "专业建房融资方案，利率优惠。可获得高达1.5%的现金返还。"
+    },
+    "investment": {
+      "title": "投资房产",
+      "description": "为投资者量身打造的战略融资方案，助您扩大房产投资组合。"
+    }
+  },
+  "whyUs": {
+    "title": "为什么选择阳光贷款？",
+    "free": {
+      "title": "免费服务",
+      "description": "我们的服务对您完全免费，费用由银行支付。"
+    },
+    "expert": {
+      "title": "专业团队",
+      "description": "拥有数十年新西兰贷款市场经验。"
+    },
+    "fast": {
+      "title": "快速审批",
+      "description": "简化流程，加速贷款审批。"
+    },
+    "choice": {
+      "title": "选择广泛",
+      "description": "与所有主要银行合作，提供最具竞争力的利率。"
+    }
+  },
+  "calculator": {
+    "title": "贷款计算器",
+    "subtitle": "估算您的还款金额，了解可贷额度",
+    "loanAmount": "贷款金额",
+    "interestRate": "利率 (%)",
+    "loanTerm": "贷款期限（年）",
+    "calculate": "计算",
+    "monthlyPayment": "预估月供",
+    "totalInterest": "总利息",
+    "totalPayment": "总还款额",
+    "cta": "获取专业建议",
+    "disclaimer": "此计算器仅提供估算。请联系我们获取根据您实际情况的准确数字。"
+  },
+  "testimonials": {
+    "title": "客户评价",
+    "subtitle": "加入数百位我们帮助过的满意房主"
+  },
+  "team": {
+    "title": "我们的团队",
+    "subtitle": "经验丰富的顾问，致力于您的成功",
+    "grace": {
+      "role": "创始人兼首席顾问",
+      "bio": "Grace创立阳光贷款，使命是让所有奥克兰人都能实现置业梦想。"
+    },
+    "steven": {
+      "role": "业务经理",
+      "bio": "Steven在金融服务和客户关系管理方面拥有丰富经验。"
+    },
+    "nicole": {
+      "role": "高级贷款顾问",
+      "bio": "Nicole拥有超过10年经验，专注于复杂贷款案例。"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "准备开始您的置业之旅？我们随时为您服务。",
+    "form": {
+      "name": "姓名",
+      "email": "电子邮箱",
+      "phone": "电话号码",
+      "message": "请描述您的情况",
+      "submit": "提交咨询",
+      "success": "感谢您的咨询！我们将在24小时内与您联系。"
+    },
+    "info": {
+      "phone": "09 954 4963",
+      "email": "info@sunshinemortgages.co.nz",
+      "address": "新西兰奥克兰"
+    }
+  },
+  "footer": {
+    "tagline": "让奥克兰家庭实现置业梦想。",
+    "quickLinks": "快速链接",
+    "services": "服务项目",
+    "legal": "法律信息",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "disclaimer": "披露声明",
+    "copyright": "© 2024 阳光贷款。保留所有权利。",
+    "partner": "KidsCan官方筹款伙伴"
+  },
+  "cta": {
+    "ready": "准备好开始了吗？",
+    "description": "今天就预约我们专业顾问的免费咨询。",
+    "button": "预约免费咨询"
+  }
+}

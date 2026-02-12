@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "Sunshine Mortgages | Auckland Mortgage Broker",
+    "description": "Expert mortgage advisers in Auckland. Get personalized home loan solutions for first home buyers, refinancing, and investment properties."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "calculator": "Calculator",
+    "about": "About Us",
+    "blog": "Resources",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Your Path to Home Ownership Starts Here",
+    "subtitle": "Auckland's trusted mortgage advisers. We simplify the home loan process so you can focus on finding your dream home.",
+    "cta": "Get Free Consultation",
+    "secondaryCta": "Calculate Your Loan"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Tailored mortgage solutions for every stage of your journey",
+    "firstHome": {
+      "title": "First Home Buyers",
+      "description": "Expert guidance through the first home buying process. We'll help you navigate grants, schemes, and find the best rates."
+    },
+    "refinancing": {
+      "title": "Refinancing",
+      "description": "Restructure your existing mortgage to get better rates or access equity. We compare options across all major lenders."
+    },
+    "construction": {
+      "title": "Construction Loans",
+      "description": "Specialist construction financing with competitive rates. Up to 1.5% cash contribution available."
+    },
+    "investment": {
+      "title": "Investment Properties",
+      "description": "Build your property portfolio with strategic financing solutions designed for investors."
+    }
+  },
+  "whyUs": {
+    "title": "Why Choose Sunshine Mortgages?",
+    "free": {
+      "title": "Free Service",
+      "description": "Our service is completely free to you. We're paid by the lenders."
+    },
+    "expert": {
+      "title": "Expert Advisers",
+      "description": "Decades of combined experience in the NZ mortgage market."
+    },
+    "fast": {
+      "title": "Fast Approvals",
+      "description": "Streamlined process to get you approved faster."
+    },
+    "choice": {
+      "title": "Wide Choice",
+      "description": "Access to all major NZ lenders and competitive rates."
+    }
+  },
+  "calculator": {
+    "title": "Mortgage Calculator",
+    "subtitle": "Estimate your repayments and see what you could borrow",
+    "loanAmount": "Loan Amount",
+    "interestRate": "Interest Rate (%)",
+    "loanTerm": "Loan Term (years)",
+    "calculate": "Calculate",
+    "monthlyPayment": "Estimated Monthly Payment",
+    "totalInterest": "Total Interest",
+    "totalPayment": "Total Payment",
+    "cta": "Get Personalized Advice",
+    "disclaimer": "This calculator provides estimates only. Contact us for accurate figures based on your situation."
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Join hundreds of happy homeowners we've helped"
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "subtitle": "Experienced advisers dedicated to your success",
+    "grace": {
+      "role": "Founder & Principal Adviser",
+      "bio": "Grace founded Sunshine Mortgages with a mission to make home ownership accessible to all Aucklanders."
+    },
+    "steven": {
+      "role": "Business Manager",
+      "bio": "Steven brings extensive experience in financial services and client relationship management."
+    },
+    "nicole": {
+      "role": "Senior Mortgage Adviser",
+      "bio": "With over 10 years of experience, Nicole specializes in complex lending scenarios."
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to start your home ownership journey? We're here to help.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "message": "Tell us about your situation",
+      "submit": "Send Enquiry",
+      "success": "Thank you! We'll be in touch within 24 hours."
+    },
+    "info": {
+      "phone": "09 954 4963",
+      "email": "info@sunshinemortgages.co.nz",
+      "address": "Auckland, New Zealand"
+    }
+  },
+  "footer": {
+    "tagline": "Making home ownership possible for Auckland families.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "disclaimer": "Disclosure Statement",
+    "copyright": "© 2024 Sunshine Mortgages. All rights reserved.",
+    "partner": "Proud KidsCan Fundraiser"
+  },
+  "cta": {
+    "ready": "Ready to Get Started?",
+    "description": "Book a free consultation with one of our expert advisers today.",
+    "button": "Book Free Consultation"
+  }
+}
